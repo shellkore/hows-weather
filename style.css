@@ -17,23 +17,30 @@ body{
 }
 
 .app-name{
-	color: #d50000 !important;
+	color: #d50000;
 	font-size: 2.1em;
 	font-weight: bolder;
 	transition: all 0.3s;
 }
 .app-name:hover{
-	color: #fff!important;
+	color: #fff;
 }
 #nav_list li a{
-	color: #d50000;
+	color: #80ff80;
 	font-weight: bolder;
 	transition: all 0.3s;
 	font-size: 2.1em; 
 }
 
 #nav_list li a:hover{
-	color:#fff;
+	background-color: #ddd;
+  color: black;
+}
+
+#nav_list li a.active {
+  background-color: #41e0ff;
+  color: white;
+  border-radius: 10px;
 }
 
 #logo{
@@ -65,7 +72,6 @@ body{
 	color: black;
 	padding-top: 2%;
 	padding-bottom: 5%;
-	font-family: 'Indie Flower',cursive;
 	font-size: 2em;
 }
 
@@ -87,6 +93,7 @@ ul#list_inline{
 	margin: auto;
 	text-align: center;
 }
+
 .jumbo{
 	margin-bottom: 0px;
 	background-color: #4aa1f3;
@@ -128,7 +135,8 @@ table{
   @-webkit-keyframes blinker {
   from {opacity: 1.0;}
   to {opacity: 0.0;}
-}
+	}
+
 .blink{
 	color: black;
 	font-weight: lighter;
