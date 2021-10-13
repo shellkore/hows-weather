@@ -2,7 +2,8 @@
 
 ## Description
 
-Simple Weather-forecast Webpage. Without any Back-end. vanilla JS implementation.
+This is a simple HTML/CSS/JS project for viewing weather on basis of city.
+It doesn't have any backend or database.
 
 [Try Live](https://shellkore.github.io/hows-weather/)
 
@@ -12,7 +13,6 @@ Simple Weather-forecast Webpage. Without any Back-end. vanilla JS implementation
 
   `git clone https://github.com/shellkore/hows-weather.git`
 
-- Opne index.html on browser
+- Open index.html on browser
 
-
-
+> If i were alive I would have been not dead.
